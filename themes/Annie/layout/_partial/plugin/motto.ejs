@@ -8,8 +8,9 @@
 		 */
 		async function getOne () {
 			let s = await new Promise(function (resolve, reject) {
+				let t = new Date().getTime()
 				$.ajax({
-					url: 'http://egg.nnnnzs.cn/api/v1/one',
+					url: '//blog.nnnnzs.cn/api/v1/one?'+t,
 					type: 'get',
 					success: function (res) {
 						resolve(res)
