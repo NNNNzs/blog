@@ -1,7 +1,8 @@
 ---
 title: post title with whitespace
 date: 2019-08-11 15:35:23
-tags: 
+cover: https://static.nnnnzs.cn/upload/img/32.jpg
+tags: 说明
 ---
 
 ### 你好

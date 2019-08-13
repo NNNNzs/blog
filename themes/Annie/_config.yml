@@ -22,10 +22,12 @@ logo: false
 # https://sariay.github.io/Random-img/
 # May be cause CROS bug!
 background_image:
-    mode: normal #normal or random
+    #mode: normal #normal or random
+    mode: random
     normal_url: /img/1.jpg
     random_max: 110 
-    random_url: https://sariay.github.io/Random-img/
+    random_url: https://static.nnnnzs.cn/upload/img/
+    #random_url: https://sariay.github.io/Random-img/
     
 # show motto
 motto:
