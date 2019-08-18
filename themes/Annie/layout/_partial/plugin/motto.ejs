@@ -3,6 +3,29 @@
 	<%- js('plugin/motto/motto.js') %>
 	
 	<script type="text/javascript">
-		$(".motto").html( getMingYanContent() );
+			/**
+		 * 获取数据库里面的名言
+		 */
+		async function getOne () {
+			let s = await new Promise(function (resolve, reject) {
+				let t = new Date().getTime()
+				$.ajax({
+					url: '//blog.nnnnzs.cn/api/v1/one?'+t,
+					type: 'get',
+					success: function (res) {
+						resolve(res)
+					},
+				})
+			})
+			return s
+		}
+		async function setOne(){
+			let res = await getOne();
+			let data = res[0]
+			let html = `${data.hitokoto} </br> </br>  ${data.from} - ${data.creator}`
+			$(".motto").html(html)
+		}
+		setOne()
+		// $(".motto").html( getMingYanContent() );
 	</script>	
 <% } %>
