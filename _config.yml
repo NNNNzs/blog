@@ -77,6 +77,16 @@ theme: Annie
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: rsync
+#   host: nnnnzs.cn
+#   user: root
+#   root: /
+#   port: 21
+#   delete: false
+#   verbose: true
+#   ignore_errors: false
+
 deploy:
   type: ftpsync
   host: nnnnzs.cn
@@ -85,8 +95,8 @@ deploy:
   remote: /
   port: 21
   #ignore: [ignore]
-  connections: 10
-  verbose: true
+  connections: 1500
+  verbose: false
   
 ## seach
 search:
