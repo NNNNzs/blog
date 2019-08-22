@@ -87,17 +87,19 @@ theme: Annie
 #   verbose: true
 #   ignore_errors: false
 
-deploy:
+deploy: 
   type: ftpsync
-  host: nnnnzs.cn
+  host: localhost
   user: blog
   pass: 123456
   remote: /
   port: 21
   #ignore: [ignore]
-  connections: 1500
-  verbose: false
-  
+  connections: 1
+  verbose: true
+
+
+
 ## seach
 search:
   path: search.json
