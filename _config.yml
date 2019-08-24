@@ -92,10 +92,10 @@ deploy:
   host: nnnnzs.cn
   user: blog
   pass: 123456
-  remote: /asd/
+  remote: /asd
   port: 21
   #ignore: [ignore]
-  #connections: 1
+  connections: 5
   verbose: true
 
 
