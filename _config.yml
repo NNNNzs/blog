@@ -89,13 +89,13 @@ theme: Annie
 
 deploy: 
   type: ftpsync
-  host: localhost
+  host: nnnnzs.cn
   user: blog
   pass: 123456
-  remote: /
+  remote: /asd/
   port: 21
   #ignore: [ignore]
-  connections: 1
+  #connections: 1
   verbose: true
 
 
