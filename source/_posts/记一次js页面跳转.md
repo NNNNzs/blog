@@ -3,7 +3,7 @@ title: 记一次js页面跳转
 date: 2019-08-28 16:42:40
 tags: 
 - jQuery
-cover: http://static.nnnnzs.cn/upload/bing/0b7364e230713f8707e9f0b1d56c6e10.png
+cover: https://static.nnnnzs.cn/upload/bing/0b7364e230713f8707e9f0b1d56c6e10.png
 ---
 碰到一个需求，软件站的某个页面想要用js做404跳转，但是不想删除cms后台的软件，还想做SEO，不然降低SEO权重
 要求是从搜索引擎来的，页面源码还是原来的，但是展示404
