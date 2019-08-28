@@ -49,3 +49,4 @@ $(selector).load(url,data,function(response,status,xhr))
 |data|可选。规定连同请求发送到服务器的数据。
 |function(response,status,xhr)|可选。规定 load() 方法完成时运行的回调函数。<br>额外的参数：<br>response - 包含来自请求的结果数据<br>status - 包含请求的状态（"success"、"notmodified"、"error"、"timeout"、"parsererror"）<br>xhr - 包含 XMLHttpRequest 对象
 
+还是有点意思的
