@@ -1,9 +1,10 @@
 ---
 title: 花式log
 date: 2019-08-28 20:26:09
-cover: 
+cover: http://static.nnnnzs.cn/upload/bing/20d521ee7c1f84c3430c02513401061d.png
 tags: 
 - 调试
+- JavaScript
 ---
 # 各种控制台输出
 ## 常见的控制台打印
