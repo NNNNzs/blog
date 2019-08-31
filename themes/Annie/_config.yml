@@ -81,14 +81,14 @@ gitalk:
     hrefTrimend: '#.*$,\\?.*$,index.html$' 
     
 valine: 
-    enable: true
+    enable: false
     appid: 'plQzCH1lrMBxqMVlxGpXkAp1-gzGzoHsz'
     appkey: 'uI0HFRNQjog8SrvUs78OXRFN'
     placeholder: no any!
     
 livere: 
-    enable: false
-    livere_uid: 'sdd'
+    enable: true
+    livere_uid: 'MTAyMC80NjM5NS8yMjkwNg=='
     
 # post_count
 leancloud_count:
