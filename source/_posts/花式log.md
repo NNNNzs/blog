@@ -1,7 +1,7 @@
 ---
 title: 花式log
 date: 2019-08-28 20:26:09
-cover: https://static.nnnnzs.cn/upload/bing/20d521ee7c1f84c3430c02513401061d.png
+cover: //static.nnnnzs.cn/upload/bing/20d521ee7c1f84c3430c02513401061d.png
 tags: 
 - 调试
 - JavaScript
