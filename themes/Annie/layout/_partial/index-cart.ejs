@@ -27,7 +27,10 @@
 				</p>
 				<p class="post-meta">
 					<%- partial('post-like',{post: post}) %>
-					<%- partial('plugin/statistics', {type: 'leancloud-count'}) %>
+					<% if(page.posts.length===i+1) { %>
+						<!-- 最后一行加载所有东西 -->
+						<%- partial('plugin/statistics', {type: 'leancloud-count'}) %>
+					<% } %>
 				</p>
 			</div>
 		</div>

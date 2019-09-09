@@ -20,10 +20,10 @@
 %>
 <% if( lean.enable && ( lean.like_post.enable || lean.visit_post.enable)){ %>
 
-	<script>
-		var appid = '<%= lean.appid %>',
-            appkey = '<%= lean.appkey %>';	  
-        AnnieLeancloud(appid, appkey);         
-	</script>
-    
+<script>
+	var appid = '<%= lean.appid %>',
+		appkey = '<%= lean.appkey %>';
+	AnnieLeancloud(appid, appkey);
+</script>
+
 <% } %>
