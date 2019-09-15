@@ -1,7 +1,7 @@
 ---
 title: gallery
-date: 2019-08-13 15:47:06
-+ layout: gallery
-+ type: gallery
+date: 2019-9-15 16:47:55
+layout: gallery
+type: gallery
 ---
 
