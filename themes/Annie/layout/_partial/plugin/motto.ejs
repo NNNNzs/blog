@@ -10,8 +10,9 @@
 			let s = await new Promise(function (resolve, reject) {
 				let t = new Date().getTime()
 				$.ajax({
-					url: '//blog.nnnnzs.cn/api/v1/one?'+t,
+					url: 'https://api.nnnnzs.cn/Api/oneText?t=w&s='+t,
 					type: 'get',
+					dataType:'json',
 					success: function (res) {
 						resolve(res)
 					},

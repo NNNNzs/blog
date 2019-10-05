@@ -23,7 +23,8 @@ logo: false
 # May be cause CROS bug!
 background_image:
     #mode: normal #normal or random
-    mode: random
+    #mode: random
+    mode: api
     normal_url: /img/1.jpg
     random_max: 110 
     random_url: https://static.nnnnzs.cn/upload/img/

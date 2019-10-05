@@ -5,7 +5,7 @@ updated: 2019-08-30 21:38:25
 tags: 
 - 调试
 - mysql
-cover: //static.nnnnzs.cn/upload/bing/20190830.png
+cover: https://static.nnnnzs.cn/upload/bing/20190830.png
 ---
 
 有个小需求，在表里根据页码和页数查询，并排序，很简单，3秒就写出的sql
