@@ -66,17 +66,20 @@ jQuery(document).ready(function ($) {
 			case 'normal':
 				{
 					curImgSrc = $('header').attr('data-normal-src');
+					loadImg();
 				}
 				break;
 			case 'post':
 				{
 					curImgSrc = $(postCoverId).attr('data-scr');
+					loadImg();
 				}
 				break;
 			default:
 				{
 					//TODO: Maybe, it loads slowly!
 					curImgSrc = 'https://source.unsplash.com/collection/954550/1920x1080';
+					loadImg();
 				}
 				break;
 		}
