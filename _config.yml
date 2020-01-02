@@ -92,7 +92,7 @@ deploy:
   host: nnnnzs.cn
   user: blog
   pass: 123456
-  remote: /
+  remote: /public/
   port: 21
   #ignore: [ignore]
   connections: 5
