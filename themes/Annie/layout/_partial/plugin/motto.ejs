@@ -8,9 +8,9 @@
 		 */
 		async function getOne () {
 			let s = await new Promise(function (resolve, reject) {
-				let t = new Date().getTime()
+				// let t = new Date().getTime()
 				$.ajax({
-					url: 'https://api.nnnnzs.cn/Api/oneText?t=w&s='+t,
+					url: 'https://api.nnnnzs.cn/Api/oneText?t=w',
 					type: 'get',
 					dataType:'json',
 					success: function (res) {
