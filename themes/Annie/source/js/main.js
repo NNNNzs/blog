@@ -51,7 +51,8 @@ jQuery(document).ready(function ($) {
 						async: true,
 						dataType: 'json',
 						success: function (res) {
-							curImgSrc = res[0].fullUrl;
+							const [item] = res;
+							curImgSrc = item.cdn_url||item.fullUrl;
 							loadImg();
 						}
 					})
