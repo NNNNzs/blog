@@ -1,7 +1,7 @@
 <div class="layout-cart">
 	<div id="layout-cart">
 		<% page.posts.each( function( post, i ) { %>
-		<div class="post" id="post">
+		<div class="post">
 			<a class="post-cover" href="<%- url_for(post.path) %>" title=" <%= post.title %> ">
 				<%# image_tag(post.cover || theme.cover, {class: "lazy"}) %>
 				<img class="lazy" src="<%= theme.lazy_image %>" data-src="<%= post.cover || theme.cover %>"/>
