@@ -1,0 +1,1 @@
+hexo g && scp -r public/* root@nnnnzs.cn:/www/wwwroot/blog.nnnnzs.cn/public

@@ -8,7 +8,7 @@ cover: https://static.nnnnzs.cn/bing/20200603.png
 
 在使用iview表格的时候，定制组件，需要用到renderHeader API，看了一下如何传入render函数，结果惊为天人
 
-```
+```javascript
 export default {
     name: 'TableRenderHeader',
     functional: true,

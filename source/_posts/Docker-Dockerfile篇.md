@@ -1,7 +1,7 @@
 ---
 title: docker-Dockerfile篇
 date: 2020-01-16 09:51:55
-tags: 路子越走越偏 docker
+tags: docker
 keyword: docker
 cover: https://static.nnnnzs.cn/bing/20200116.png
 ---

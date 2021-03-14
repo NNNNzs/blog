@@ -1,7 +1,7 @@
 ---
 title: Docker-安装篇
 date: 2020-01-05 14:30:46
-tags: 路子越走越偏 docker
+tags: docker
 keyword: docker
 ---
 ## what is Docker
